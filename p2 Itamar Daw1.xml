@@ -1,0 +1,37 @@
+<xml ?xml version="1.0" encoding="UTF-8" ?>
+
+<persona>
+    <name>Roger</name>
+    <lastname>Sobrino</lastname>
+    <age>39</age>
+    <height>1.78</height>
+    <job>Profesor iteri</job>
+    <adress>
+        <street>Diputació</street>
+        <number>18</number>
+        <cp>08012</cp>
+    </adress>
+    <social_media>
+        <instagram>
+            <user>p34dr</user>
+            <email>rinfo@gmail.com</email>
+        </instagram>
+        <Twiter tiene= si>
+            <friends>
+            <!--datos de friend_1-->
+                <friend>
+                    <name>Pedro</name>
+                    <surname>Sotomonte</surname>
+                    <age>35</age>   
+                </friend>
+            <!--datos de friend_2-->
+                <friend>
+                    <name>Julia</name>
+                    <surname>Sotomonte</surname>
+                    <age>38</age> 
+                </friend>
+            </friends>
+        </Twiter>    
+    </social_media>
+</persona>
+
