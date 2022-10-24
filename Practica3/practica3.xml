@@ -1,0 +1,45 @@
+<!-- Esto es el prologo de cada archivo XML -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Este es el root del xml-->
+<students>
+<!-- Los student son los 5 child del root students. Además cada student tendrá como atributo la clase a la que pertenece-->
+    <student clase=DAW>
+    <!-- Estos son los sub-child de student , y son name , surname , email , dni.-->
+        <name>Jose</name>
+        <surname>Antonio Recio</surname>
+        <email>joseantonio@gmail.com</email>
+        <dni>45123678k</dni>
+    </student>
+    <students>
+    <student clase=DAW>
+        <name>Federico</name>
+        <surname>Garcia Lorca</surname>
+        <email>federicogarcia@gmail.com</email>
+        <dni>45123456k</dni>
+    </student>
+    <students>
+    <student clase=DAM>
+        <name>Karim</name>
+        <surname>Benzema Balondioro</surname>
+        <email>karimbenzemalo@gmail.com</email>
+        <dni>45123465U</dni>
+    </student>
+    <students>
+    <student clase=DAW>
+        <name>Cristina</name>
+        <surname>Lopez Ruiz</surname>
+        <email>cristinalopez@gmail.com</email>
+        <dni>45125367I</dni>
+    </student>
+    <students>
+    <student clase=DAM>
+        <name>Rocio</name>
+        <surname>Jurado Ramirez</surname>
+        <email>rociojurado@gmail.com</email>
+        <dni>46652341J</dni>
+    </student>
+    <!-- A continuación la etiqueta de cierre del root y por tanto del html-->
+</students>
+
+
+    
