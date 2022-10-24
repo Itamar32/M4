@@ -1,0 +1,9 @@
+{"bookstore": {
+    "book":{
+        "tittle":"Don Quijote de la Mancha",
+        "publisher":"Algar",
+        "cover":"Versión en castellano",
+        "price":25
+    }
+ }         
+}
