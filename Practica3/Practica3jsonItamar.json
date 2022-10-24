@@ -1,0 +1,46 @@
+
+
+{"students":{
+    
+    "student": {
+        "clase": "DAW" ,
+        "name": "Jose",
+        "surname": "Antonio Recio",
+        "email": "joseantonio@gmail.com",
+        "dni": "45123678k"
+    },
+    "student": {
+        "clase": "DAW" ,
+        "name": "Federico",
+        "surname": "Garcia Lorca",
+        "email": "Federicogarcia@gmail.com",
+        "dni":"45123456k"
+    },
+
+    "student": {
+        "clase": "DAW" ,
+        "name": "Karim",
+        "surname": "Benzema balondeoro",
+        "email": "karimbenzema@gmail.com",
+        "dni":"45123465U"
+    },
+
+     "student": {
+        "clase": "DAW" ,
+        "name": "Cristina",
+        "surname": "Lopez ruiz",
+        "email": "cristinalopez@gmail.com",
+        "dni":"45125367I"
+     }, 
+
+    "student": {
+        "clase": "DAW" ,
+        "name": "Rocio",
+        "surname": "Jurado Ramirez",
+        "email": "rociojurado@gmail.com",
+        "dni":"46652341J" 
+    }
+
+
+
+}}
