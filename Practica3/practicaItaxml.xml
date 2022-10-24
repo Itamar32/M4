@@ -1,0 +1,13 @@
+
+<!-- Libreria y el libro que hay -->
+
+<Bookstore>
+<!-- caracteristicas del libro--> 
+    <book>
+        <tittle>Don quijote de la mancha</tittle> 
+        <publisher>Algar</publisher>
+        <cover>Versión en castellano</cover>
+        <price>25</price>
+    </book>
+</Bookstore> 
+<!-- fin -->
