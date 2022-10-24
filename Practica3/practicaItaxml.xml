@@ -1,0 +1,8 @@
+<Bookstore> 
+    <book>
+        <tittle>Don quijote de la mancha</tittle>
+        <publisher>Algar</publisher>
+        <cover>Versión en castellano</cover>
+        <price>25</price>
+    </book>
+</Bookstore> 
