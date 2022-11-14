@@ -1,0 +1,34 @@
+tittle {
+    color: yellow;
+}
+body {
+
+    background-color:grey ;
+}
+h4{
+    color:yellow;
+}
+caption {
+    text-align: center;
+    color:white;
+}
+table {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+tr {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+th {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+.blanco {
+    color:white;
+}
+
