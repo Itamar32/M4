@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+header{
+    width: 400px;
+    height: 100px;
+}
+header nav {
+    display:flex;
+    justify-content: flex-end;
+}
+header nav.EncabezadoDerecha {
+    width: auto;
+    height:auto;
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+
+}
