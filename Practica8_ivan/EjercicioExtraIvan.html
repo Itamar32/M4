@@ -1,0 +1,117 @@
+<!-- Destacar que tanto Itamar como yo , hemos entendido mal el ejercicio y ambos hemos hecho dos html y dos css. Itamar y yo ambos hemos hecho la página del buscador
+de Google por equivocación (ambos sin traducciones) , además el ha realizado las traducciones en otro html y por otra parte, yo he realizado el ejercicio de las fotografías. Para
+resumir , hemos hecho el doble de trabajo por equivocación.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clonado</title>
+    <link rel="Stylesheet" href="EjercicioExtraIvan.css">
+</head>
+<!-- A partir de aqui definimos el body del documento , el cual estructuraremos en tres partes,
+Lo primero el header donde ubicaremos los menús a través de la etiqueta nav.
+El segundo será el main , es decir , el cuerpo principal , donde se ubicara el buscador de Google junto con las imágenes
+y descripciones de los integrantes del grupo.
+Y lo tercero y último será el footer donde ubicaremos los enlaces que se encuentran en el pie de página.-->
+<body>
+    <header>
+        <nav>
+            <div>            
+            </div>
+            <div class="nav-div-encabezado-derecha">
+                <ul class="nav-div-ul-encabezado-derecha">
+                    <li>
+                        <a href="">Gmail</a>
+                    </li>
+                    <li>
+                            <a href="">Imágenes</a>
+                    </li>
+                    <li>
+                        <a id="Puntitos" href=""></a>
+                    </li>
+                    <li>
+                        <a id="sesion">Iniciar sesion</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- A partir de aquí definimos el main del documento.-->
+    <main>
+        <section class="main-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="">
+        </section>
+        <section > 
+            <div class="main-descripciones-container">
+                <div class="main-descripciones-container-ivan">
+                    <ul class="ul-ivan">
+                        <li id="foto-ivan"></li>
+                        <li>Iván Montero Fernández</li>
+                        <li>Hobbies: Baloncesto, jugar al ordenador,series, mundo IT y finanzas</li>
+                        <li>Espero poder trabajar como programador full-stack y crear algún proyecto propio al finalizar mis estudios.</li>
+                    </ul>
+                </div>
+                <div class="main-descripciones-container-itamar">
+                    <ul>
+                        <li id="foto-itamar"></li>
+                        <li>Itamar Keydar Antoni </li>
+                        <li>Hobbies: videojuegos, shibari y programación</li>
+                        <li>Encontrar trabajo en un mundo sumido en la desesperación económica y cultural</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Aqui empezamos la última parte del documento , el footer. Haremos uso de divs y listas para poder separar los menús. Un div que incluirá la parte de arriba
+    y un div para la parte de abajo que a su vez , dividiremos en 3 divs para las 3 partes que lo componen.Hacemos uso de listas para posteriormente en CSS usar la función 
+    de display flex para alinearlos horizontalmente.-->
+    <footer>
+            <div class="footer-container-up">
+                <p>España</p>
+            </div>
+        <div>
+            <div class="footer-container-down">
+                <div class=footer-down-left>
+                        <ol>
+                            <li>
+                                <a href="">Publicidad</a>
+                            </li>
+                            <li>
+                                <a href="">Empresa</a>
+                            </li>
+                            <li>
+                                <a href="">Como funciona la Búsqueda</a>
+                            </li>
+                        </ol>
+                </div>
+                <div class="footer-down-centre">
+                    <ol>
+                        <li id="hoja"></li>
+                        <li>
+                            <a>Emisión neutra de carbono desde el 2007</a>
+                        </li>
+                </ol>
+                </div>
+                <div class="footer-down-right">
+                    <ol>
+                        <li>
+                            <a href="">Privacidad</a>
+                        </li>
+                        <li>
+                            <a href="">Términos</a>
+                        </li>
+                        <li>
+                            <a href="">Configuración</a>
+                        </li>
+                    </ol>
+
+                </div>
+
+            </div>
+        </div>    
+    </footer>
+
+</body>
+</html>
