@@ -1,0 +1,35 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: white;
+    background-color: rgba(32,33,36,1);
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.Tienda{
+display: inline-block;
+padding: 5px;
+margin: 0 5px;
+color: #bdc1c6;
+}
+.marco{
+    display: inline-block;
+    flex-grow: 1;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    z-index: 986;   
+    height: 48px;
+    position: relative;
+    transition: box-shadow 250ms;
+    display: block;
+}
+.boton-yo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
