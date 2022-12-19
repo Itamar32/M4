@@ -15,33 +15,11 @@ a{
 header{
     width: 100%;
     height: 60px;
+    border-bottom:1px solid #999DA2;
 }
 header nav {
     display:flex;
     justify-content: space-between;
-}
-
-/* A partir de aquí se edita el encabezado a la derecha */
-.nav-div-ul-encabezado-izquierda{
-    width: 250px;
-    padding-left:20px;
-    height:30px;
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
-    list-style:none;
-}
-.nav-div-ul-encabezado-izquierda a{
-    padding:5px;
-    color:#BDC1C6;
-    margin-right:5px;
-}
-.nav-div-ul-encabezado-izquierda a:hover{
-text-decoration:underline;
-}
-/* He intentado copiarme al máximo de la página de Google y en ella había un margín left de solo este elemento de 5px a la izquierda */
-#tienda {
-    margin-left:5px;
 }
 
 /* A partir de aquí se edita el encabezado a la derecha */
@@ -94,12 +72,10 @@ text-decoration:underline;
     font-family:Arial, Helvetica, sans-serif;
     color:black;
     border-radius:15px;
+    text-decoration:none;
     }
-    /* display:inline-block
-*/
 /* Estilos del main */
 main{
- 
     text-align:center; 
     margin-top:91px;
 }
@@ -114,108 +90,47 @@ main .main-logo img{
     margin-bottom:30px;
 
 }
-main .main-input{
-    width:530px;
-    margin:0 auto;
-    margin-bottom:35px;
-}
-main .main-input-container{
-    width:525px;
-    border-radius: 100px;
-    border:1px solid #e1e2e6;
+.main-descripciones-container{
     display:flex;
-    justify-content:center;
-    align-items:center;
-     
-}
-main .main-input input{
-    width: 450px;
-    height:40px;
-    border:none;
-    outline:none;
-    background:#202124;  
-}
-main .main-input-container:hover{
-    box-shadow:0 1px 6px #20212447;
-}
-main .main-input .search-icon{
-    background-image: url(Captura\ de\ pantalla_20221219_014539.png);
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:contain;
-    width:18px;
-    height:18px;
-}
-main .main-input .micro-icon {
-    background-image: url(Captura\ de\ pantalla_20221219_014253.png);
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:contain;
-    width:18px;
-    height:18px;
-    cursor:pointer;
-}
-main .main-input .camera {
-background-image: url(camara.png);
-width:18px;
-height:18px;
-background-repeat:no-repeat;
-background-position:center;
-background-size:contain;
-cursor:pointer;
-margin-left:5px;
-}
-main .main-button {
-    width:530px;
-    margin:0 auto;
-}
-main .main-button div{
-    display:inline-block
-}
-main .main-button button {
-    height:36px;
+    justify-content:space-evenly;
+    padding:10px;
+    margin:0px;
 
-    background-color:#303134;;
-    border:none;
-    font-size:14px;
-    color: white;
-    border-radius:5px;
-    padding:0 16px;
-    margin-right:10px;
-    cursor:pointer;
-     
 }
-#boton{
-    background:#303134;
-    color:white;
+.main-descripciones-container div ul{
+   list-style: none;
+   text-align:left;
+   color:white;
+    margin:0px;
+    
 }
-main .main-button button:hover{
-    border:1px solid #dadce0;
-    box-shadow: 1px#dadce0;
-    color:202124;
+.main-descripciones-container ul li{
+    width:200px;
 }
-main .main-idiomas{
-    display:flex;
-    justify-content: center;
+.ul-ivan li{
+    margin-left:225px;
 }
- main .main-idiomas-container-ul{
-    padding-left:20px;
-    height:30px;
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
-    list-style:none;
+#foto-ivan{
+    padding: 100px;
+    margin:0px;
+    margin-left:20px;
+    background-image:url(Captura\ de\ pantalla\ 2022-12-19\ 114730.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom:10px;
+    margin-right:70px;
+    
 }
-main .main-idiomas-container-ul a{
-    padding:5px;
-    color:#8AB4F8;
-    margin-right:5px;    
-}
-#ofrecido{
-    color:#BDC1C6;
-}
-main .main-idiomas-container-ul a:hover{
-    text-decoration: underline;
+#foto-itamar{
+    padding: 100px;
+    background-image:url(WhatsApp\ Image\ 2022-12-18\ at\ 12.16.13.jpeg);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom:10px;
+    margin-left:35px;
+    
 }
 /* A partir de aqui definimos los estilos del footer */
 footer{
@@ -226,7 +141,7 @@ footer{
     display:flex;
     justify-content:center;
     flex-direction:column;
-    margin-top:192px;
+    border-top:1px solid #999DA2;
 }
 .footer-container-up {
 text-align:left;
