@@ -1,0 +1,188 @@
+body{
+    margin:0px;
+    padding:0;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#202124;
+}
+/* Este selector , es para los enlaces que hay en la web
+text-decoration me permite eliminar el subrayado del hipervinculo cuando lo pongo en none
+A su vez, pointer me permite cambiar el tipo de selector del raton al pasar por encima del hipervinculo*/
+a{
+    text-decoration: none; 
+    cursor:pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
+    border-bottom:1px solid #999DA2;
+}
+header nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* A partir de aquí se edita el encabezado a la derecha */
+.nav-div-encabezado-derecha{
+    padding-left:50px;
+    
+}
+.nav-div-ul-encabezado-derecha{
+    font-size:13px;
+    padding-top:5px;
+    padding-right:5px;
+    padding-left:5px;
+    margin:5px;
+    margin-right: 10px;
+    height:30px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    list-style:none;
+    
+}
+.nav-div-ul-encabezado-derecha a{
+    padding-left:15px;
+    color:white;
+    margin-right:5px;
+    margin-top:30px;
+   
+}
+/* Hover lo utilizamos para el evento de pasar el raton por encima de los enlaces y que estos se subrayen con el atributo text-decoration */
+.nav-div-ul-encabezado-derecha a:hover{
+text-decoration:underline;
+}
+#Puntitos {
+    padding: 15px;
+    margin:4px;
+    margin-left:20px;
+    background-image:url(Captura\ de\ pantalla_20221218_201158.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+#sesion {
+    background: #8ab4f8;
+    padding: 10px;
+    padding-left:28px;
+    padding-right:28px;
+    margin-left:15px;
+    font-size:14px ;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    border-radius:15px;
+    text-decoration:none;
+    }
+/* Estilos del main */
+main{
+    text-align:center; 
+    margin-top:91px;
+}
+main .main-log{
+    width:530px;
+    margin:0 auto;
+    margin: bottom 35px;
+
+}
+main .main-logo img{
+    width: 272px;
+    margin-bottom:30px;
+
+}
+.main-descripciones-container{
+    display:flex;
+    justify-content:space-evenly;
+    padding:10px;
+    margin:0px;
+
+}
+.main-descripciones-container div ul{
+   list-style: none;
+   text-align:left;
+   color:white;
+    margin:0px;
+    
+}
+.main-descripciones-container ul li{
+    width:200px;
+}
+.ul-ivan li{
+    margin-left:225px;
+}
+#foto-ivan{
+    padding: 100px;
+    margin:0px;
+    margin-left:20px;
+    background-image:url(Captura\ de\ pantalla\ 2022-12-19\ 114730.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom:10px;
+    margin-right:70px;
+    
+}
+#foto-itamar{
+    padding: 100px;
+    background-image:url(WhatsApp\ Image\ 2022-12-18\ at\ 12.16.13.jpeg);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom:10px;
+    margin-left:35px;
+    
+}
+/* A partir de aqui definimos los estilos del footer */
+footer{
+    width:100%;
+    height:100px;
+    position:absolute;
+    background-color:#171717;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    border-top:1px solid #999DA2;
+}
+.footer-container-up {
+text-align:left;
+color:#999DA2;
+margin-left:20px;
+
+}
+.footer-container-down{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#999DA2;
+    border-top:1px solid #999DA2;
+}
+.footer-container-down ol{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    list-style:none;
+}
+.footer-down-left ol li a{
+    color:#999DA2;
+    margin:10px;
+}
+#hoja{
+    padding:15px;
+   background-image:url(hoja.png);
+   background-position:center;
+   background-repeat:no-repeat;
+   background-size: contain;
+}
+.footer-down-right ol li a{
+    color:#999DA2;
+    margin:10px;
+}
+.footer-down-left ol li a:hover{
+    text-decoration:underline;
+}
+.footer-down-centre ol li a:hover{
+    text-decoration:underline;
+}
+.footer-down-right ol li a:hover{
+    text-decoration:underline;
+}
