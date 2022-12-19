@@ -1,0 +1,273 @@
+body{
+    margin:0px;
+    padding:0;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#202124;
+}
+/* Este selector , es para los enlaces que hay en la web
+text-decoration me permite eliminar el subrayado del hipervinculo cuando lo pongo en none
+A su vez, pointer me permite cambiar el tipo de selector del raton al pasar por encima del hipervinculo*/
+a{
+    text-decoration: none; 
+    cursor:pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* A partir de aquí se edita el encabezado a la derecha */
+.nav-div-ul-encabezado-izquierda{
+    width: 250px;
+    padding-left:20px;
+    height:30px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    list-style:none;
+}
+.nav-div-ul-encabezado-izquierda a{
+    padding:5px;
+    color:#BDC1C6;
+    margin-right:5px;
+}
+.nav-div-ul-encabezado-izquierda a:hover{
+text-decoration:underline;
+}
+/* He intentado copiarme al máximo de la página de Google y en ella había un margín left de solo este elemento de 5px a la izquierda */
+#tienda {
+    margin-left:5px;
+}
+
+/* A partir de aquí se edita el encabezado a la derecha */
+.nav-div-encabezado-derecha{
+    padding-left:50px;
+    
+}
+.nav-div-ul-encabezado-derecha{
+    font-size:13px;
+    padding-top:5px;
+    padding-right:5px;
+    padding-left:5px;
+    margin:5px;
+    margin-right: 10px;
+    height:30px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    list-style:none;
+    
+}
+.nav-div-ul-encabezado-derecha a{
+    padding-left:15px;
+    color:white;
+    margin-right:5px;
+    margin-top:30px;
+   
+}
+/* Hover lo utilizamos para el evento de pasar el raton por encima de los enlaces y que estos se subrayen con el atributo text-decoration */
+.nav-div-ul-encabezado-derecha a:hover{
+text-decoration:underline;
+}
+#Puntitos {
+    padding: 15px;
+    margin:4px;
+    margin-left:20px;
+    background-image:url(Captura\ de\ pantalla_20221218_201158.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+#sesion {
+    background: #8ab4f8;
+    padding: 10px;
+    padding-left:28px;
+    padding-right:28px;
+    margin-left:15px;
+    font-size:14px ;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    border-radius:15px;
+    }
+    /* display:inline-block
+*/
+/* Estilos del main */
+main{
+ 
+    text-align:center; 
+    margin-top:91px;
+}
+main .main-log{
+    width:530px;
+    margin:0 auto;
+    margin: bottom 35px;
+
+}
+main .main-logo img{
+    width: 272px;
+    margin-bottom:30px;
+
+}
+main .main-input{
+    width:530px;
+    margin:0 auto;
+    margin-bottom:35px;
+}
+main .main-input-container{
+    width:525px;
+    border-radius: 100px;
+    border:1px solid #e1e2e6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     
+}
+main .main-input input{
+    width: 450px;
+    height:40px;
+    border:none;
+    outline:none;
+    background:#202124;  
+}
+main .main-input-container:hover{
+    box-shadow:0 1px 6px #20212447;
+}
+main .main-input .search-icon{
+    background-image: url(Captura\ de\ pantalla_20221219_014539.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    width:18px;
+    height:18px;
+}
+main .main-input .micro-icon {
+    background-image: url(Captura\ de\ pantalla_20221219_014253.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    width:18px;
+    height:18px;
+    cursor:pointer;
+}
+main .main-input .camera {
+background-image: url(camara.png);
+width:18px;
+height:18px;
+background-repeat:no-repeat;
+background-position:center;
+background-size:contain;
+cursor:pointer;
+margin-left:5px;
+}
+main .main-button {
+    width:530px;
+    margin:0 auto;
+}
+main .main-button div{
+    display:inline-block
+}
+main .main-button button {
+    height:36px;
+
+    background-color:#303134;;
+    border:none;
+    font-size:14px;
+    color: white;
+    border-radius:5px;
+    padding:0 16px;
+    margin-right:10px;
+    cursor:pointer;
+     
+}
+#boton{
+    background:#303134;
+    color:white;
+}
+main .main-button button:hover{
+    border:1px solid #dadce0;
+    box-shadow: 1px#dadce0;
+    color:202124;
+}
+main .main-idiomas{
+    display:flex;
+    justify-content: center;
+}
+ main .main-idiomas-container-ul{
+    padding-left:20px;
+    height:30px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    list-style:none;
+}
+main .main-idiomas-container-ul a{
+    padding:5px;
+    color:#8AB4F8;
+    margin-right:5px;    
+}
+#ofrecido{
+    color:#BDC1C6;
+}
+main .main-idiomas-container-ul a:hover{
+    text-decoration: underline;
+}
+/* A partir de aqui definimos los estilos del footer */
+footer{
+    width:100%;
+    height:100px;
+    position:absolute;
+    background-color:#171717;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:192px;
+}
+.footer-container-up {
+text-align:left;
+color:#999DA2;
+margin-left:20px;
+
+}
+.footer-container-down{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#999DA2;
+    border-top:1px solid #999DA2;
+}
+.footer-container-down ol{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    list-style:none;
+}
+.footer-down-left ol li a{
+    color:#999DA2;
+    margin:10px;
+}
+#hoja{
+    padding:15px;
+   background-image:url(hoja.png);
+   background-position:center;
+   background-repeat:no-repeat;
+   background-size: contain;
+}
+.footer-down-right ol li a{
+    color:#999DA2;
+    margin:10px;
+}
+.footer-down-left ol li a:hover{
+    text-decoration:underline;
+}
+.footer-down-centre ol li a:hover{
+    text-decoration:underline;
+}
+.footer-down-right ol li a:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,38 @@
+tittle {
+    color: yellow;
+}
+/* Para definir el color del cuerpo , es decir , de todo el fondo de la p
+agina */
+body {
+
+    background-color:grey ;
+}
+h4{
+    color:yellow;
+}
+caption {
+    text-align: center;
+    color:white;
+}
+/* A partir de aqui definimos el grosor , estilo y color de las lineas de la tabla y sus celdas */
+table {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+tr {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+th {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+/* A continuación defino el color de las etiquetas con el atributo class="blanco" del html */
+.blanco {
+    color:white;
+}
+

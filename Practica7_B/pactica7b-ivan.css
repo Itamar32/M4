@@ -1,0 +1,35 @@
+/** Esto son los divs cuya llamada se hace a través de su id atributo único de las etiquetas div del html , en este css se especifica su posición 
+si es relativa o absoluta (dependiendo de si el cuadrado tiene otro cuadrado dentro o no) , el color ,la anchura y altura del cuadrado. Además también
+se dan los datos de la posición del cuadrado respecto al margin y el padding. **/
+
+#verde {
+    position:absolute; top:140px; left:100px;
+    background-color:green;
+    width:160px;
+    height:120px;
+}
+#rojo{
+    position:relative;
+    left:100px;
+    top:60px;
+    background-color: red;
+    width:40px;
+    height:40px;
+}
+#amarillo{
+    position:absolute;
+    top:40px;
+    left:20px;
+    background-color:yellow;
+    width:160px;
+    height:120px;
+
+}
+#azul{
+    position:relative;
+    left:20px;
+    top:20px;
+    background-color: blue;
+    width:40px;
+    height:40px;
+}

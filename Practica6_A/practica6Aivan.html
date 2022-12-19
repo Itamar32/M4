@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- Esta es la cabezera en la que tan solo definiremos el utf-8-->
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form>
+            <!-- Este sería el primer formulario de tipo texto-->
+            <label>Name</label>
+            <input placeholder="El teu nom" type="text" ><br>
+            <label>Cognom</label>
+            <input placeholder="El teu cognom" type="text"><br>
+            <label>Edat</label>
+            <input placeholder="20" type="number"><br>
+        </form>
+        <!-- Este sería el segundo formulario de tipo radio , con un valor por defecto mediante checked-->
+        <form>
+            <p>Cicle formatiu que es vol cursar l'any vinent:</p><br>
+            <label>DAM</label><input checked type="radio"><br>
+            <label>ASIX</label><input type="radio"><br>
+            <label>Altre...</label><input type="radio"><br>
+        </form>
+        <!-- Este sería el tercer formulario de tipo checkbox y la última opción sería un textarea (con valor por defecto con placeholder)-->
+        <form>
+            <p>Marca las tevas aficions</p>
+            <label>Estudiar</label><input checked type="checkbox"><br>
+            <label>ASIX</label><input type="checkbox"><br>
+            <label>Llibre</label><input type="checkbox"><br>
+            <label>Jugar a magic</label><input type="checkbox"><br>
+            <label>Fer burilles</label><input type="checkbox"><br>
+            <label>Altres</label><textarea  placeholder="Especifica quines" rows="10" cols="50"></textarea>
+        </form>
+        <!-- Este sería el cuarto formulario de tipo select en el que se definen las 4 opciones y se pone una por defecto mediante selected-->
+        <form>
+            <label>L'estandard d'HTML que més m'agrada : </label>
+            <select>
+                <option>HTML 4.01</option>
+                <option>XHTML 1.0</option>
+                <option selected="HTML5">HTML5</option>
+            </select>
+        </form>
+    </body>
+</html>

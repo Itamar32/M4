@@ -1,0 +1,139 @@
+<!-- Destacar que tanto Itamar como yo , hemos entendido mal el ejercicio y ambos hemos hecho dos html y dos css. Itamar y yo ambos hemos hecho la página del buscador
+de Google por equivocación (ambos sin traducciones) , además el ha realizado las traducciones en otro html y por otra parte, yo he realizado el ejercicio de las fotografías. Para
+resumir , hemos hecho el doble de trabajo por equivocación. Por otra parte, mi html del Buscador de Google lleva al ejercicio extra de las fotos.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clonado</title>
+    <link rel="Stylesheet" href="practica8ivan.css">
+</head>
+<!-- A partir de aqui definimos el body del documento , el cual estructuraremos en tres partes,
+Lo primero el header donde ubicaremos los menús a través de la etiqueta nav.
+El segundo será el main , es decir , el cuerpo principal , donde se ubicara el buscador de Google junto con los botones de busqueda.
+Y lo tercero y último será el footer donde ubicaremos los enlaces que se encuentran en el pie de página.
+Destacar que ningún botón u enlace del documento es funcional a excepción de buscar en google que llevará al ejercicio extra donde salen las imagenes y descripciones
+de los integrantes.-->
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul class="nav-div-ul-encabezado-izquierda">
+                    <li>
+                        <a>Sobre Google</a>
+                    </li>
+                    <li>
+                        <a id="tienda">Tienda</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-div-encabezado-derecha">
+                <ul class="nav-div-ul-encabezado-derecha">
+                    <li>
+                        <a href="">Gmail</a>
+                    </li>
+                    <li>
+                            <a href="">Imágenes</a>
+                    </li>
+                    <li>
+                        <a id="Puntitos" href=""></a>
+                    </li>
+                    <li>
+                        <a id="sesion">Iniciar sesion</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+       <!-- A partir de aquí definimos el main del documento.-->
+    <main>
+        <section class="main-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="">
+        </section>
+        <section class="main-input">
+            <div class="main-input-container">
+                <span class="search-icon"></span>
+                <input type="text">
+                <a class="micro-icon" href=""></a>
+                <a class="camera" href=""></a>
+            </div>
+            </section>
+        <section class="main-button">
+            <div>
+                <button>
+                    <a id="boton" href="EjercicioExtraIvan.html">Buscar con Google</a>
+                </button>
+                <button>
+                    Voy a tener suerte
+                </button>
+            </div>
+        </section>
+        <section class="main-idiomas">
+            <div>
+                <ul class="main-idiomas-container-ul">                    
+                        <li id="ofrecido">Ofrecido por google en :</li>
+                        <li>
+                            <a>català</a>
+                        </li>
+                        <li>
+                            <a>galego</a>
+                        </li>
+                        <li>
+                            <a>euskara</a>
+                        </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+        <!-- Aqui empezamos la última parte del documento , el footer. Haremos uso de divs y listas para poder separar los menús. Un div que incluirá la parte de arriba
+    y un div para la parte de abajo que a su vez , dividiremos en 3 divs para las 3 partes que lo componen.Hacemos uso de listas para posteriormente en CSS usar la función 
+    de display flex para alinearlos horizontalmente.-->
+    <footer>
+        <div class="footer-container-up">
+            <p>España</p>
+        </div>
+    <div>
+        <div class="footer-container-down">
+            <div class=footer-down-left>
+                    <ol>
+                        <li>
+                            <a href="">Publicidad</a>
+                        </li>
+                        <li>
+                            <a href="">Empresa</a>
+                        </li>
+                        <li>
+                            <a href="">Como funciona la Búsqueda</a>
+                        </li>
+                    </ol>
+            </div>
+            <div class="footer-down-centre">
+                <ol>
+                    <li id="hoja"></li>
+                    <li>
+                        <a>Emisión neutra de carbono desde el 2007</a>
+                    </li>
+            </ol>
+            </div>
+            <div class="footer-down-right">
+                <ol>
+                    <li>
+                        <a href="">Privacidad</a>
+                    </li>
+                    <li>
+                        <a href="">Términos</a>
+                    </li>
+                    <li>
+                        <a href="">Configuración</a>
+                    </li>
+                </ol>
+
+            </div>
+
+        </div>
+    </div>    
+</footer>
+</body>
+</html>
