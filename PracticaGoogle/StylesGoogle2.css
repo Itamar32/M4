@@ -1,0 +1,25 @@
+.div-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-header{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.boton-yo{
+    border-radius: 50%;
+    border:1px solid black;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+.der{
+    display: flex;
+   
+    position: relative ;
+    nav-right: auto;
+}

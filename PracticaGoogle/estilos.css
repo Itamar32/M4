@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.caja0 {
+    border: 1px solid aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja1 {
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.caja2 {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.centro {
+    color: aqua;
+    border: 1px solid white;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
